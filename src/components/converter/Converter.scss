@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+.converter {
+  position: relative;
+  height: 99%;
+  width: 100%;
+  border: solid navy 0.5vw;
+  font-family: 'Dosis', san-serif;
+
+  .header {
+    color: navy;
+    position: relative;
+    width: 100%;
+    font-size: large;
+    font-family: 'Dosis', san-serif;
+    .top-header {
+      position: relative;
+      text-align: right;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      p{
+        font-size: 20%;
+        position: relative;
+        text-align: right;
+        margin: 0;
+      }
+      i {
+        position: relative;
+        color: navy;
+      }
+    }
+    #headings {
+      width: 25%;
+      position: relative;
+      border: dashed navy 0.3em;
+      border-left: 0px;
+      padding: 1%;
+      h1, h2 {
+        position: relative;
+        margin: 1%;
+        width: 50%;
+        font-size: 100%;
+        font-family: 'Dosis', san-serif;
+      }
+      h2 {
+        left: 40%;
+      }
+    }
+    p{
+      width: 100%;
+      justify-self: center;
+      text-align: center;
+    }
+  }
+
+  form {
+    height: 80%;
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      //border: solid navy 0.3em;
+      //border-left: 0px;
+      position: relative;
+      align-content: center;
+      justify-self: center;
+      height: 100%;
+      width: 100%;
+      i {
+        position: relative;
+        top: 50%;
+        color: navy;
+      }
+
+      .from, .to {
+        position: relative;
+        width: 40%;
+        height: 90%;
+        margin: 2%;
+
+        .to-sel, .from-sel {
+          background-color: navy;
+          color: white;
+          height: 15%;
+        }
+
+        .from-inp, .to-inp {
+          position: relative;
+          height: 90%;
+          #amount {
+            width: 100%;
+            height: 70%;
+            font-size: xx-large;
+            color: navy;
+            text-decoration-color: navy;
+            text-overflow: ellipsis;
+          }
+        }
+      }
+    }
+  }
+}
